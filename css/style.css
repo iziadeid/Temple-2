@@ -1814,7 +1814,9 @@ ul {
     background-color: #f9f9f9;
     caret-color: var(--maincolor);
 }
-
+.discount .form .input:focus {
+    border-color:var(--maimcolor);
+}
 .discount .form textarea.input {
     resize: none;
     height: 200px;
